@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins:wght@100&family=Work+Sans:wght@200;400;500;600;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --red:#d01C28;
+    --grey:#2e2e2e;
+}
+body{
+    font-family: 'Crimson Text', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+button{
+all:unset;
+background-color: var(--red);
+color: white;
+padding:7px 16px;
+width : 75px;
+height: 31px;
+
+
+}
+button span{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin:auto;
+    height: 72px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.hero{
+    display: flex;
+    max-width: 1280px ;
+    margin: 0px auto;
+    align-items: center;
+    max-height: calc(100vh-72px);
+
+}
+.hero-button button{
+    font-size: 15px;
+}
+.hero h1{
+    font-size: 108px;
+    line-height: 102px;
+    margin-bottom: 34px;
+}
+.hero p{
+    font-weight: 600;
+    color: var(--grey);
+    margin-bottom: 34px;
+    max-width: 400px;
+}
+.hero-button{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 34px;
+
+}
+.secondary-button{
+    background: transparent;
+    color: var(--grey);
+    border: 1px solid var(--grey);
+}
+.shopping p{
+    font-size: 16px;
+     font-weight: 400;
+     margin-bottom: 8px;
+}
+.brand-icon{
+    display: flex;
+    gap: 16px;
+}
